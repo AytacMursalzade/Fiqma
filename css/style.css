@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;400&display=swap');
+
+.header_box{
+    height: 107px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #cfc9c9;
+}
+
+.logo_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 31px;
+}
+
+.logo_header img{
+    width: 34px;
+    height: 40px;
+}
+.logo_header h1{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 8px;
+}
+
+.nav_right ul li{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    margin: 44px 40px;
+}
+.bg_a a{
+    color: #71A894;
+}
+
+.main_head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 29px;
+}
+.main_tittle{
+    width: 608px;
+    height: 248px;
+}
+.main_tittle h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: #303031;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25%;
+    margin-bottom: 24px;
+}
+
+.main_tittle p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #66645E;
+    font-family: 'Open Sans', sans-serif;
+}
+.main_img img{
+    width: 642px;
+    height: 718px;
+    background-repeat: no-repeat;
+    background-image: url(../img/main_bg.svg);
+    z-index: 2 !important;
+
+}
+
+.main_head button{
+    width: 172px;
+    height: 49px;
+    margin-top: 39px;
+    border: 1px solid #71A894;
+    border-radius: 8px;
+    background-color: #71A894;
+}
+
+.main_head button p{
+    font-size: 14px;
+    padding: 6px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    background-color: #71A894;
+    color: #FFFFFF;
+}
