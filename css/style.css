@@ -65,9 +65,7 @@
 .main_img img{
     width: 642px;
     height: 718px;
-    background-repeat: no-repeat;
-    background-image: url(../img/main_bg.svg);
-    z-index: 2 !important;
+   
 
 }
 
